@@ -37,7 +37,9 @@ path/to/imagenet/
 ```
 ## Training
 To train baseline ViT on a single node run:
+
 --need to change data path
+
 After training, you can get a pre-trained model weights.
 ```
 python vit_train.py 
@@ -45,7 +47,9 @@ python vit_train.py
 
 ## Testing
 To test R_Cut explainability based on the trained weights on a single node run:
+
 --need to change data path
+
 ```
 python r_cut.py
 ```
